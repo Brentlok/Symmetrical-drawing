@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symethric drawing</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+    <script src="./buttons.js" defer></script>
+    <script src="./help.js" defer></script>
+</head>
+<body>
+    <h1 class="title">Symmetry Drawing</h1>
+    <div class="menu__active"></div>
+    <div class="menu__mobile"></div>
+    <div class="menu__left">
+        <div class="x option">X-Axis Symmetry</div>
+        <div class="y option">Y-Axis Symmetry</div>
+        <div class="d1 option">Diagonal Symmetry top left - lower right</div>
+        <div class="d2 option">Diagonal Symmetry top right - lower left</div>
+        <p>Rotation Symmetry</p>
+        <div class="rotation">
+            <div class="two option">2</div>
+            <div class="three option">3</div>
+            <div class="four option">4</div>
+            <div class="five option">5</div>
+            <div class="six option">6</div>
+            <div class="ten option">10</div>
+        </div>
+        <p>Colors</p>
+        <div class="colors">
+            <div class="red"></div>
+            <div class="yellow"></div>
+            <div class="green"></div>
+            <div class="blue"></div>
+            <div class="black color__active"></div>
+        </div>
+        <div class="displacementFour option">Displacement 4 stripes</div>
+    </div>
+
+    <div class="help hide">
+        <div class="help__menu">
+            <h1 class="help__title">X</h1>
+            <div class="help__item help__x">X</div>
+            <div class="help__item help__y">Y</div>
+            <div class="help__item help__diagonal">Diagonal Symmetry</div>
+            <div class="help__item help__rotation">Rotation Symmetry</div>
+            <div class="help__item help__grid">Grid</div>
+            <div class="help__item help__nine">9x9</div>
+        </div>
+        <div class="help__close"></div>
+        <div class="help__text"></div>
+    </div>
+
+    <div class="canvasBox">
+        <canvas class="main"></canvas>
+        <div class="grid"></div>
+        <canvas class="type"></canvas>
+        <canvas class="shapesCanvas"></canvas>
+        <canvas class="mirror"></canvas>
+        <canvas class="mirror"></canvas>
+        <canvas class="mirror"></canvas>
+        <canvas class="mirror"></canvas>
+        <canvas class="mirror"></canvas>
+        <canvas class="mirror"></canvas>
+        <canvas class="mirror"></canvas>
+        <canvas class="mirror"></canvas>
+        <canvas class="mirror"></canvas>
+        <canvas class="mirror"></canvas>
+        <div class="background"></div>
+    </div>
+
+    <div class="menu__right">
+        <div class="undo undoDesktop option">Undo</div>
+        <div class="forward forwardDesktop option">Redo</div>
+        <div class="clear option">Clear</div>
+        <div class="gridButton option">Grid</div>
+        <div class="normal option active">Normal drawing</div>
+        <div class="helpOpen option">Help</div>
+        <p>9x9</p>
+        <div class="shapesGrid">
+            <div class="s1 option"></div>
+            <div class="s2 option"></div>
+            <div class="s3 option"></div>
+            <div class="s4 option"></div>
+            <div class="s5 option"></div>
+        </div>
+        <div class="save option">Download Picture</div>
+    </div>
+
+
+</body>
+</html>
